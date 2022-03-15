@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hoja1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3aa4ce30-d967-4610-bce1-a4d135a268e3">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Class.xml"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\JavaAdapter.xml"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="515"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="471"/>
 	<queryString language="SQL">
 		<![CDATA[]]>
 	</queryString>
+	<field name="apellido" class="java.lang.String">
+		<fieldDescription><![CDATA[apellido]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<fieldDescription><![CDATA[nombre]]></fieldDescription>
+	</field>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
 	<title>
 		<band height="61" splitType="Stretch">
-			<staticText>
-				<reportElement x="-20" y="-10" width="595" height="30" uuid="6ecf9208-5899-41f9-94b0-421e5a3c20f5"/>
+			<textField>
+				<reportElement x="-20" y="-10" width="595" height="30" uuid="1386a518-52a0-4beb-9062-1b9364313b5e"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" size="10.5" isBold="true" isUnderline="true"/>
 				</textElement>
-				<text><![CDATA["CONTRATO DE TRABAJO A PLAZO INDETERMINADO"]]></text>
-			</staticText>
+				<textFieldExpression><![CDATA["CONTRATO DE TRABAJO A PLAZO INDETERMINADO"]]></textFieldExpression>
+			</textField>
 		</band>
 	</title>
 	<detail>
@@ -26,7 +40,7 @@
 				<textElement textAlignment="Justified">
 					<font fontName="Arial" size="10.5"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Conste por el presente documento, el contrato de trabajo a plazo indeterminado, que celebran, de conformidad con lo dispuesto por el artículo 4° del Decreto Supremo N° 003-97-TR, Texto Único Ordenado del Decreto Legislativo N° 728, Ley de Productividad y Competitividad Laboral (en adelante, la “LPCL”), de una parte,  cuya constitución obra debidamente inscrita en la Partida Nº [XXXXXXX] del Registro de Personas Jurídicas de la Oficina Registral de [XXXXXXX], con Registro Único de Contribuyente Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia de [XXXXXXX] y departamento de [XXXXXXX], debidamente representada por [XXXXXXX], identificada con [DNI/CE] N° [XXXXXXX], a quien en adelante se denominará el “Empleador” o la “Empresa”; y, de la otra parte [*], de nacionalidad [XXXXXXX], identificado con Documento Nacional de Identidad Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia y departamento de [XXXXXXX], a quien en adelante se denominará el “Trabajador”; en los términos y condiciones siguientes:"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Conste por el presente documento, el contrato de trabajo a plazo indeterminado, que celebran, de conformidad con lo dispuesto por el artículo 4° del Decreto Supremo N° 003-97-TR, Texto Único Ordenado del Decreto Legislativo N° 728, Ley de Productividad y Competitividad Laboral (en adelante, la “LPCL”), de una parte,  cuya constitución obra debidamente inscrita en la Partida Nº [XXXXXXX] del Registro de Personas Jurídicas de la Oficina Registral de [XXXXXXX], con Registro Único de Contribuyente Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia de [XXXXXXX] y departamento de [XXXXXXX], debidamente representada por "+$F{apellido}+", identificada con [DNI/CE] N° [XXXXXXX], a quien en adelante se denominará el “Empleador” o la “Empresa”; y, de la otra parte [*], de nacionalidad [XXXXXXX], identificado con Documento Nacional de Identidad Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia y departamento de [XXXXXXX], a quien en adelante se denominará el “Trabajador”; en los términos y condiciones siguientes:"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="10" y="111" width="220" height="22" uuid="f1f3c15a-6def-4bec-831d-3655f143c5ae"/>
