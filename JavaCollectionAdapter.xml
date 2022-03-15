@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beanDataAdapter class="net.sf.jasperreports.data.bean.BeanDataAdapterImpl"><name>Java-Adapter</name><factoryClass>com.aws.jurisprudencia.samy.app.model.request.ContratoDatosPrincipalesRequestBean</factoryClass><methodName>build</methodName><useFieldDescription>false</useFieldDescription><classpath>F:\DatosPC\Documents\demo.jar</classpath></beanDataAdapter>

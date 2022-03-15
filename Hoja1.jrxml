@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.19.0.final using JasperReports Library version 6.19.0-646c68931cebf1a58bc65c4359d1f0ca223c5e94  -->
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hoja1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3aa4ce30-d967-4610-bce1-a4d135a268e3">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
-	<subDataset name="Dataset1" uuid="d48c9773-ae7d-46f6-ae73-ceeb117007de">
-		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
-		<queryString language="json">
-			<![CDATA[]]>
-		</queryString>
-	</subDataset>
-	<subDataset name="Dataset2" uuid="a9163e62-f202-4d7e-a677-865a3efcf639">
-		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
-		<queryString>
-			<![CDATA[]]>
-		</queryString>
-	</subDataset>
-	<queryString language="JSON">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Class.xml"/>
+	<queryString language="SQL">
 		<![CDATA[]]>
 	</queryString>
-	<field name="razonSocial" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="datosPrincipales.datosEmpleador.razonSocial"/>
-		<fieldDescription><![CDATA[datosPrincipales.datosEmpleador.razonSocial]]></fieldDescription>
-	</field>
-	<field name="nroPartida" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="datosPrincipales.datosEmpleador.nroPartida"/>
-		<fieldDescription><![CDATA[datosPrincipales.datosEmpleador.nroPartida]]></fieldDescription>
-	</field>
-	<field name="oficinaRegistral" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="datosPrincipales.datosEmpleador.oficinaRegistral"/>
-		<fieldDescription><![CDATA[datosPrincipales.datosEmpleador.oficinaRegistral]]></fieldDescription>
-	</field>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -50,7 +26,7 @@
 				<textElement textAlignment="Justified">
 					<font fontName="Arial" size="10.5"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Conste por el presente documento, el contrato de trabajo a plazo indeterminado, que celebran, de conformidad con lo dispuesto por el artículo 4° del Decreto Supremo N° 003-97-TR, Texto Único Ordenado del Decreto Legislativo N° 728, Ley de Productividad y Competitividad Laboral (en adelante, la “LPCL”), de una parte, "+$F{razonSocial}+" cuya constitución obra debidamente inscrita en la Partida Nº [XXXXXXX] del Registro de Personas Jurídicas de la Oficina Registral de [XXXXXXX], con Registro Único de Contribuyente Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia de [XXXXXXX] y departamento de [XXXXXXX], debidamente representada por [XXXXXXX], identificada con [DNI/CE] N° [XXXXXXX], a quien en adelante se denominará el “Empleador” o la “Empresa”; y, de la otra parte [*], de nacionalidad [XXXXXXX], identificado con Documento Nacional de Identidad Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia y departamento de [XXXXXXX], a quien en adelante se denominará el “Trabajador”; en los términos y condiciones siguientes:"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Conste por el presente documento, el contrato de trabajo a plazo indeterminado, que celebran, de conformidad con lo dispuesto por el artículo 4° del Decreto Supremo N° 003-97-TR, Texto Único Ordenado del Decreto Legislativo N° 728, Ley de Productividad y Competitividad Laboral (en adelante, la “LPCL”), de una parte,  cuya constitución obra debidamente inscrita en la Partida Nº [XXXXXXX] del Registro de Personas Jurídicas de la Oficina Registral de [XXXXXXX], con Registro Único de Contribuyente Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia de [XXXXXXX] y departamento de [XXXXXXX], debidamente representada por [XXXXXXX], identificada con [DNI/CE] N° [XXXXXXX], a quien en adelante se denominará el “Empleador” o la “Empresa”; y, de la otra parte [*], de nacionalidad [XXXXXXX], identificado con Documento Nacional de Identidad Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia y departamento de [XXXXXXX], a quien en adelante se denominará el “Trabajador”; en los términos y condiciones siguientes:"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="10" y="111" width="220" height="22" uuid="f1f3c15a-6def-4bec-831d-3655f143c5ae"/>
@@ -78,8 +54,7 @@
 				<textElement textAlignment="Justified">
 					<font fontName="Arial" size="10.5"/>
 				</textElement>
-				<textFieldExpression><![CDATA["El Trabajador declara tener experiencia en [XXXXXXX] y estar apto para prestar servicios en dicha actividad, de acuerdo con las directrices que disponga el Empleador."
-]]></textFieldExpression>
+				<textFieldExpression><![CDATA["El Trabajador declara tener experiencia en [XXXXXXX] y estar apto para prestar servicios en dicha actividad, de acuerdo con las directrices que disponga el Empleador."]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="10" y="235" width="120" height="22" uuid="b0a39f80-fc4c-4e48-83ce-76c30c68cf73"/>
