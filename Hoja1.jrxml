@@ -1,23 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hoja1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3aa4ce30-d967-4610-bce1-a4d135a268e3">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\JavaAdapter.xml"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\Java-Adapter.xml"/>
 	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="515"/>
 	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="471"/>
 	<queryString language="SQL">
 		<![CDATA[]]>
 	</queryString>
-	<field name="apellido" class="java.lang.String">
-		<fieldDescription><![CDATA[apellido]]></fieldDescription>
+	<field name="desempeño" class="java.lang.String">
+		<fieldDescription><![CDATA[desempeño]]></fieldDescription>
 	</field>
-	<field name="id" class="java.lang.String">
-		<fieldDescription><![CDATA[id]]></fieldDescription>
+	<field name="rubro" class="java.lang.String">
+		<fieldDescription><![CDATA[rubro]]></fieldDescription>
+	</field>
+	<field name="ruc" class="java.lang.String">
+		<fieldDescription><![CDATA[ruc]]></fieldDescription>
+	</field>
+	<field name="esIndefinido" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[esIndefinido]]></fieldDescription>
+	</field>
+	<field name="laboresAsignadas2" class="java.lang.String">
+		<fieldDescription><![CDATA[laboresAsignadas2]]></fieldDescription>
+	</field>
+	<field name="fechaHasta" class="java.lang.String">
+		<fieldDescription><![CDATA[fechaHasta]]></fieldDescription>
+	</field>
+	<field name="domicilioEmpleador" class="java.lang.String">
+		<fieldDescription><![CDATA[domicilioEmpleador]]></fieldDescription>
+	</field>
+	<field name="sueldo" class="java.lang.Double">
+		<fieldDescription><![CDATA[sueldo]]></fieldDescription>
+	</field>
+	<field name="distritoEmpleador" class="java.lang.String">
+		<fieldDescription><![CDATA[distritoEmpleador]]></fieldDescription>
+	</field>
+	<field name="actividad" class="java.lang.String">
+		<fieldDescription><![CDATA[actividad]]></fieldDescription>
+	</field>
+	<field name="razonSocial" class="java.lang.String">
+		<fieldDescription><![CDATA[razonSocial]]></fieldDescription>
+	</field>
+	<field name="distritoTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[distritoTrabajador]]></fieldDescription>
+	</field>
+	<field name="fechaInicio" class="java.lang.String">
+		<fieldDescription><![CDATA[fechaInicio]]></fieldDescription>
+	</field>
+	<field name="experiencia" class="java.lang.String">
+		<fieldDescription><![CDATA[experiencia]]></fieldDescription>
+	</field>
+	<field name="nombreRepresentante" class="java.lang.String">
+		<fieldDescription><![CDATA[nombreRepresentante]]></fieldDescription>
+	</field>
+	<field name="laboresAsignadas" class="java.lang.String">
+		<fieldDescription><![CDATA[laboresAsignadas]]></fieldDescription>
+	</field>
+	<field name="moneda" class="java.lang.String">
+		<fieldDescription><![CDATA[moneda]]></fieldDescription>
+	</field>
+	<field name="tipoContrato" class="java.lang.String">
+		<fieldDescription><![CDATA[tipoContrato]]></fieldDescription>
+	</field>
+	<field name="idTemplate" class="java.lang.String">
+		<fieldDescription><![CDATA[idTemplate]]></fieldDescription>
+	</field>
+	<field name="tipoDocumentoEmpleador" class="java.lang.String">
+		<fieldDescription><![CDATA[tipoDocumentoEmpleador]]></fieldDescription>
+	</field>
+	<field name="cargo" class="java.lang.String">
+		<fieldDescription><![CDATA[cargo]]></fieldDescription>
+	</field>
+	<field name="nacionalidadTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[nacionalidadTrabajador]]></fieldDescription>
+	</field>
+	<field name="provinciaEmpleador" class="java.lang.String">
+		<fieldDescription><![CDATA[provinciaEmpleador]]></fieldDescription>
 	</field>
 	<field name="class" class="java.lang.Class">
 		<fieldDescription><![CDATA[class]]></fieldDescription>
 	</field>
-	<field name="nombre" class="java.lang.String">
-		<fieldDescription><![CDATA[nombre]]></fieldDescription>
+	<field name="nroDocumentoTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[nroDocumentoTrabajador]]></fieldDescription>
+	</field>
+	<field name="areaLaboral" class="java.lang.String">
+		<fieldDescription><![CDATA[areaLaboral]]></fieldDescription>
+	</field>
+	<field name="departamentoTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[departamentoTrabajador]]></fieldDescription>
+	</field>
+	<field name="provinciaTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[provinciaTrabajador]]></fieldDescription>
+	</field>
+	<field name="departamentoEmpleador" class="java.lang.String">
+		<fieldDescription><![CDATA[departamentoEmpleador]]></fieldDescription>
+	</field>
+	<field name="nombresTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[nombresTrabajador]]></fieldDescription>
+	</field>
+	<field name="domicilioTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[domicilioTrabajador]]></fieldDescription>
+	</field>
+	<field name="tipoDocumentoTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[tipoDocumentoTrabajador]]></fieldDescription>
+	</field>
+	<field name="nroPartida" class="java.lang.String">
+		<fieldDescription><![CDATA[nroPartida]]></fieldDescription>
+	</field>
+	<field name="apellidosTrabajador" class="java.lang.String">
+		<fieldDescription><![CDATA[apellidosTrabajador]]></fieldDescription>
+	</field>
+	<field name="nroDocumentoEmpleador" class="java.lang.String">
+		<fieldDescription><![CDATA[nroDocumentoEmpleador]]></fieldDescription>
+	</field>
+	<field name="oficinaRegistral" class="java.lang.String">
+		<fieldDescription><![CDATA[oficinaRegistral]]></fieldDescription>
+	</field>
+	<field name="apellidoRepresentante" class="java.lang.String">
+		<fieldDescription><![CDATA[apellidoRepresentante]]></fieldDescription>
 	</field>
 	<background>
 		<band splitType="Stretch"/>
@@ -40,7 +139,7 @@
 				<textElement textAlignment="Justified">
 					<font fontName="Arial" size="10.5"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Conste por el presente documento, el contrato de trabajo a plazo indeterminado, que celebran, de conformidad con lo dispuesto por el artículo 4° del Decreto Supremo N° 003-97-TR, Texto Único Ordenado del Decreto Legislativo N° 728, Ley de Productividad y Competitividad Laboral (en adelante, la “LPCL”), de una parte,  cuya constitución obra debidamente inscrita en la Partida Nº [XXXXXXX] del Registro de Personas Jurídicas de la Oficina Registral de [XXXXXXX], con Registro Único de Contribuyente Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia de [XXXXXXX] y departamento de [XXXXXXX], debidamente representada por "+$F{apellido}+", identificada con [DNI/CE] N° [XXXXXXX], a quien en adelante se denominará el “Empleador” o la “Empresa”; y, de la otra parte [*], de nacionalidad [XXXXXXX], identificado con Documento Nacional de Identidad Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia y departamento de [XXXXXXX], a quien en adelante se denominará el “Trabajador”; en los términos y condiciones siguientes:"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Conste por el presente documento, el contrato de trabajo a plazo indeterminado, que celebran, de conformidad con lo dispuesto por el artículo 4° del Decreto Supremo N° 003-97-TR, Texto Único Ordenado del Decreto Legislativo N° 728, Ley de Productividad y Competitividad Laboral (en adelante, la “LPCL”), de una parte,  cuya constitución obra debidamente inscrita en la Partida Nº "+$F{nroPartida}+" del Registro de Personas Jurídicas de la Oficina Registral de "+$F{oficinaRegistral}+", con Registro Único de Contribuyente Nº "+"--"+", con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia de [XXXXXXX] y departamento de [XXXXXXX], debidamente representada por "+$F{razonSocial}+", identificada con [DNI/CE] N° [XXXXXXX], a quien en adelante se denominará el “Empleador” o la “Empresa”; y, de la otra parte [*], de nacionalidad [XXXXXXX], identificado con Documento Nacional de Identidad Nº [XXXXXXX], con domicilio en [XXXXXXX], distrito de [XXXXXXX], provincia y departamento de [XXXXXXX], a quien en adelante se denominará el “Trabajador”; en los términos y condiciones siguientes:"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="10" y="111" width="220" height="22" uuid="f1f3c15a-6def-4bec-831d-3655f143c5ae"/>
