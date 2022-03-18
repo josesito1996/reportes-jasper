@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hoja2" pageWidth="595" pageHeight="842" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="50" bottomMargin="0" uuid="f2398bda-9a22-4dd5-ae40-560253bbbb4b">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\JavaAdapter.xml"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\java-lib-data.xml"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
