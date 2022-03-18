@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.19.0.final using JasperReports Library version 6.19.0-646c68931cebf1a58bc65c4359d1f0ca223c5e94  -->
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hoja1" pageWidth="595" pageHeight="842" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="30" bottomMargin="0" uuid="3aa4ce30-d967-4610-bce1-a4d135a268e3">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\Java-Adapter.xml"/>
 	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="515"/>
 	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="471"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\JavaAdapter.xml"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -119,9 +120,9 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="61" splitType="Stretch">
+		<band height="38" splitType="Stretch">
 			<textField>
-				<reportElement x="0" y="42" width="498" height="19" uuid="1386a518-52a0-4beb-9062-1b9364313b5e"/>
+				<reportElement x="0" y="10" width="498" height="19" uuid="1386a518-52a0-4beb-9062-1b9364313b5e"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" size="10.5" isBold="true" isUnderline="true"/>
 				</textElement>

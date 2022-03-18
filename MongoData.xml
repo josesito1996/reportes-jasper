@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<MongoDbDataAdapter class="com.jaspersoft.mongodb.adapter.MongoDbDataAdapterImpl"><name>New Data Adapter 1</name><mongoURI>mongodb+srv://user_mongo:G1TFNZUPitWXoy8z@cluster0.7dn2n.mongodb.net/bd_sun?retryWrites=true&amp;w=majority</mongoURI><username>admin</username><password>G1TFNZUPitWXoy8z</password></MongoDbDataAdapter>
