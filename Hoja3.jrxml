@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hoja3" pageWidth="595" pageHeight="842" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="50" bottomMargin="0" uuid="3c97d697-9296-4871-9c83-a259958965e7">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\java-lib-data.xml"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\JavaAdapter.xml"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
-	<field name="desempeño" class="java.lang.String">
-		<fieldDescription><![CDATA[desempeño]]></fieldDescription>
+	<field name="desempenio" class="java.lang.String">
+		<fieldDescription><![CDATA[desempenio]]></fieldDescription>
 	</field>
 	<field name="rubro" class="java.lang.String">
 		<fieldDescription><![CDATA[rubro]]></fieldDescription>
@@ -181,7 +181,7 @@
 				<textElement textAlignment="Justified">
 					<font fontName="Arial" size="10.5"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Sin perjuicio de las directivas que sobre el particular emita el Empleador, éste proporcionará al Trabajador diverso soporte informático (hardware y software) para el cabal desempeño de sus labores, tales como computadora, acceso al servidor del Empleador, unidades de almacenamiento de datos o similares. El Trabajador declara conocer que dicho soporte sólo podrá ser empleado para asuntos propios de su trabajo; consecuentemente, dicho soporte no podrá ser utilizado para asuntos ajenos a la labor del Trabajador o que sean personales."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Sin perjuicio de las directivas que sobre el particular emita el Empleador, éste proporcionará al Trabajador diverso soporte informático (hardware y software) para el cabal desempenio de sus labores, tales como computadora, acceso al servidor del Empleador, unidades de almacenamiento de datos o similares. El Trabajador declara conocer que dicho soporte sólo podrá ser empleado para asuntos propios de su trabajo; consecuentemente, dicho soporte no podrá ser utilizado para asuntos ajenos a la labor del Trabajador o que sean personales."]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="99" y="1" width="198" height="22" uuid="232e3a66-1714-4b46-a2a3-db0b7985b871"/>

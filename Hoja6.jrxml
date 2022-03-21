@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hoja6" pageWidth="595" pageHeight="842" columnWidth="495" leftMargin="50" rightMargin="50" topMargin="50" bottomMargin="0" uuid="574c7966-9b32-4286-a98d-0c2c20a0a612">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\java-lib-data.xml"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="reportes-jasper\javaAdapter.xml"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
-	<field name="desempeño" class="java.lang.String">
-		<fieldDescription><![CDATA[desempeño]]></fieldDescription>
-	</field>
 	<field name="rubro" class="java.lang.String">
 		<fieldDescription><![CDATA[rubro]]></fieldDescription>
 	</field>
@@ -19,6 +16,9 @@
 	</field>
 	<field name="laboresAsignadas2" class="java.lang.String">
 		<fieldDescription><![CDATA[laboresAsignadas2]]></fieldDescription>
+	</field>
+	<field name="desempenio" class="java.lang.String">
+		<fieldDescription><![CDATA[desempenio]]></fieldDescription>
 	</field>
 	<field name="fechaHasta" class="java.lang.String">
 		<fieldDescription><![CDATA[fechaHasta]]></fieldDescription>
@@ -61,6 +61,9 @@
 	</field>
 	<field name="idTemplate" class="java.lang.String">
 		<fieldDescription><![CDATA[idTemplate]]></fieldDescription>
+	</field>
+	<field name="mes" class="java.lang.String">
+		<fieldDescription><![CDATA[mes]]></fieldDescription>
 	</field>
 	<field name="tipoDocumentoEmpleador" class="java.lang.String">
 		<fieldDescription><![CDATA[tipoDocumentoEmpleador]]></fieldDescription>
@@ -109,6 +112,12 @@
 	</field>
 	<field name="oficinaRegistral" class="java.lang.String">
 		<fieldDescription><![CDATA[oficinaRegistral]]></fieldDescription>
+	</field>
+	<field name="dia" class="java.lang.String">
+		<fieldDescription><![CDATA[dia]]></fieldDescription>
+	</field>
+	<field name="anio" class="java.lang.String">
+		<fieldDescription><![CDATA[anio]]></fieldDescription>
 	</field>
 	<field name="apellidoRepresentante" class="java.lang.String">
 		<fieldDescription><![CDATA[apellidoRepresentante]]></fieldDescription>
@@ -176,7 +185,7 @@
 				<textElement textAlignment="Justified">
 					<font fontName="Arial" size="10.5"/>
 				</textElement>
-				<textFieldExpression><![CDATA["En señal de conformidad las partes suscriben este documento, en dos (2) ejemplares de un mismo tenor, en la ciudad de Lima, a los [XXXXXXX] días del mes de [XXXXXXX] de [XXXXXXX], entregándose uno a cada parte."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["En señal de conformidad las partes suscriben este documento, en dos (2) ejemplares de un mismo tenor, en la ciudad de Lima, a los "+$F{dia}+" días del mes de "+$F{mes}+" de "+$F{anio}+", entregándose uno a cada parte."]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="119" y="485" width="75" height="16" uuid="8a07dc30-4e57-4916-8232-ccdcfe6eb7de"/>
